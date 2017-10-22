@@ -3,7 +3,7 @@
 ## Using
 ```
 docker build -t python .
-docker run -it -v ~/projects/python:/projects --name=dev_python python /bin/bash
+docker run -it -v ~/projects/python:/projects -p 5000:5000 --name=dev_python python /bin/bash
 ```
 
 
