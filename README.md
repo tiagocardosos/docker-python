@@ -1,8 +1,10 @@
 # docker-python
 
 ## Using
-``docker build -t python .``
-``docker run -it -v ~/projects/python:/projects --name=dev_python python /bin/bash``
+```
+docker build -t python .
+docker run -it -v ~/projects/python:/projects --name=dev_python python /bin/bash
+```
 
 
 ## Install virtualenv
